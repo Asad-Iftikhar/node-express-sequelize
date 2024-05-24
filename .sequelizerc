@@ -2,6 +2,6 @@ const { resolve } = require('path');
 
 module.exports = {
   config: resolve(__dirname, 'config', 'config.database.js'), // Uses path module
-  //   'seeders-path': resolve('src', 'database', 'seeders'), // incase you move project inside src dir
-  //   'migrations-path': resolve('src', 'database', 'migrations'), // incase you move project inside src dir
+  'seeders-path': resolve('src', 'database', 'seeders'), // incase you move project inside src dir
+  'migrations-path': resolve('src', 'database', 'migrations'), // incase you move project inside src dir
 };

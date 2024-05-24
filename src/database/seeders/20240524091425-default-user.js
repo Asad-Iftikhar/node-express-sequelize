@@ -1,6 +1,6 @@
 'use strict';
 
-const db = require('../models'); // Import your User model
+const db = require('../../models'); // Import your User model
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
